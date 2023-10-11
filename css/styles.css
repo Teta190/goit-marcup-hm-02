@@ -7,6 +7,10 @@ body {
 a {
   text-decoration: none;
 }
+.page-header {
+}
+.nav-menu {
+}
 .logo-header {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -17,13 +21,14 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-selector {
+.logo {
   color: #2e2f42;
 }
 ul {
   list-style-type: none;
 }
-
+.menu {
+}
 .item-nav {
   color: #2e2f42;
   font-size: 16px;
@@ -38,8 +43,18 @@ ul {
 .item-nav:focus {
   color: #404bbf;
 }
+.link-nav {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .adres-header {
   font-style: normal;
+  color: #2e2f42;
 }
 .adres-item-hed {
   color: #434455;
@@ -48,10 +63,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.adres-item-hed:hover {
-  color: #404bbf;
-}
-.adres-item-hed:focus {
+.link-nav:hover,
+.link-nav:focus {
   color: #404bbf;
 }
 .hero-section {
@@ -83,6 +96,7 @@ ul {
 .main-button:focus {
   background: var(--OCEAN, #404bbf);
 }
+/* Strangths */
 .stranghts-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
